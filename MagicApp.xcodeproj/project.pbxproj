@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		401EB38F2C90CCF200E727E6 /* MagicAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB38E2C90CCF200E727E6 /* MagicAppApp.swift */; };
+		401EB3932C90CCF400E727E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401EB3922C90CCF400E727E6 /* Assets.xcassets */; };
+		401EB3962C90CCF400E727E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401EB3952C90CCF400E727E6 /* Preview Assets.xcassets */; };
+		401EB3D72C91BB4C00E727E6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB3C02C91BB4C00E727E6 /* Card.swift */; };
+		401EB3D82C91BB4C00E727E6 /* CardDetailModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB3C12C91BB4C00E727E6 /* CardDetailModule.swift */; };
+		401EB3D92C91BB4C00E727E6 /* CardListModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB3C22C91BB4C00E727E6 /* CardListModule.swift */; };
+		401EB3DA2C91BB4C00E727E6 /* MainScreenModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB3C32C91BB4C00E727E6 /* MainScreenModule.swift */; };
+		401EB3DB2C91BB4C00E727E6 /* CardDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB3C52C91BB4C00E727E6 /* CardDetailInteractor.swift */; };
+		401EB3DC2C91BB4C00E727E6 /* CardListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB3C62C91BB4C00E727E6 /* CardListInteractor.swift */; };
+		401EB3DD2C91BB4C00E727E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401EB3C82C91BB4C00E727E6 /* Preview Assets.xcassets */; };
+		401EB3DE2C91BB4C00E727E6 /* CardDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB3CA2C91BB4C00E727E6 /* CardDetailRouter.swift */; };
+		401EB3DF2C91BB4C00E727E6 /* CardListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB3CB2C91BB4C00E727E6 /* CardListRouter.swift */; };
+		401EB3E02C91BB4C00E727E6 /* MainScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB3CC2C91BB4C00E727E6 /* MainScreenRouter.swift */; };
+		401EB3E12C91BB4C00E727E6 /* CardDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB3CE2C91BB4C00E727E6 /* CardDetailPresenter.swift */; };
+		401EB3E22C91BB4C00E727E6 /* CardListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB3CF2C91BB4C00E727E6 /* CardListPresenter.swift */; };
+		401EB3E32C91BB4C00E727E6 /* MainScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB3D02C91BB4C00E727E6 /* MainScreenPresenter.swift */; };
+		401EB3E42C91BB4C00E727E6 /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB3D32C91BB4C00E727E6 /* CardDetailView.swift */; };
+		401EB3E52C91BB4C00E727E6 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB3D42C91BB4C00E727E6 /* CardListView.swift */; };
+		401EB3E62C91BB4C00E727E6 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB3D52C91BB4C00E727E6 /* MainScreenView.swift */; };
+		401EB4012C9216CA00E727E6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB4002C9216CA00E727E6 /* Constant.swift */; };
+		401EB4092C923EAA00E727E6 /* MagicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB4082C923EAA00E727E6 /* MagicAppTests.swift */; };
+		401EB42C2C924ACC00E727E6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB4102C924ACC00E727E6 /* Card.swift */; };
+		401EB42D2C924ACC00E727E6 /* CardDetailModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB4112C924ACC00E727E6 /* CardDetailModule.swift */; };
+		401EB42E2C924ACC00E727E6 /* CardListModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB4122C924ACC00E727E6 /* CardListModule.swift */; };
+		401EB42F2C924ACC00E727E6 /* MainScreenModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB4132C924ACC00E727E6 /* MainScreenModule.swift */; };
+		401EB4302C924ACC00E727E6 /* CardDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB4152C924ACC00E727E6 /* CardDetailInteractor.swift */; };
+		401EB4312C924ACC00E727E6 /* CardListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB4162C924ACC00E727E6 /* CardListInteractor.swift */; };
+		401EB4322C924ACC00E727E6 /* CardDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB4182C924ACC00E727E6 /* CardDetailPresenter.swift */; };
+		401EB4332C924ACC00E727E6 /* CardListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB4192C924ACC00E727E6 /* CardListPresenter.swift */; };
+		401EB4342C924ACC00E727E6 /* MainScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB41A2C924ACC00E727E6 /* MainScreenPresenter.swift */; };
+		401EB4352C924ACC00E727E6 /* Alamofire in Resources */ = {isa = PBXBuildFile; fileRef = 401EB41C2C924ACC00E727E6 /* Alamofire */; };
+		401EB4362C924ACC00E727E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401EB41D2C924ACC00E727E6 /* Preview Assets.xcassets */; };
+		401EB4372C924ACC00E727E6 /* CardDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB41F2C924ACC00E727E6 /* CardDetailRouter.swift */; };
+		401EB4382C924ACC00E727E6 /* CardListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB4202C924ACC00E727E6 /* CardListRouter.swift */; };
+		401EB4392C924ACC00E727E6 /* MainScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB4212C924ACC00E727E6 /* MainScreenRouter.swift */; };
+		401EB43A2C924ACC00E727E6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB4232C924ACC00E727E6 /* Constant.swift */; };
+		401EB43B2C924ACC00E727E6 /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB4252C924ACC00E727E6 /* CardDetailView.swift */; };
+		401EB43C2C924ACC00E727E6 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB4262C924ACC00E727E6 /* CardListView.swift */; };
+		401EB43D2C924ACC00E727E6 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB4272C924ACC00E727E6 /* MainScreenView.swift */; };
+		401EB43E2C924ACC00E727E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401EB4292C924ACC00E727E6 /* Assets.xcassets */; };
+		401EB43F2C924ACC00E727E6 /* MagicAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB42A2C924ACC00E727E6 /* MagicAppApp.swift */; };
+		401EB4422C924B4700E727E6 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 401EB4402C924B4700E727E6 /* info.plist */; };
+		A8D957BAF8947B66D54CB44C /* Pods_MagicApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4DDEA91A81E46E48F3E26E /* Pods_MagicApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		401EB40A2C923EAA00E727E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 401EB3832C90CCF200E727E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 401EB38A2C90CCF200E727E6;
+			remoteInfo = MagicApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		401EB38B2C90CCF200E727E6 /* MagicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		401EB38E2C90CCF200E727E6 /* MagicAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicAppApp.swift; sourceTree = "<group>"; };
+		401EB3922C90CCF400E727E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		401EB3952C90CCF400E727E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		401EB3C02C91BB4C00E727E6 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		401EB3C12C91BB4C00E727E6 /* CardDetailModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetailModule.swift; sourceTree = "<group>"; };
+		401EB3C22C91BB4C00E727E6 /* CardListModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListModule.swift; sourceTree = "<group>"; };
+		401EB3C32C91BB4C00E727E6 /* MainScreenModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenModule.swift; sourceTree = "<group>"; };
+		401EB3C52C91BB4C00E727E6 /* CardDetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetailInteractor.swift; sourceTree = "<group>"; };
+		401EB3C62C91BB4C00E727E6 /* CardListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListInteractor.swift; sourceTree = "<group>"; };
+		401EB3C82C91BB4C00E727E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		401EB3CA2C91BB4C00E727E6 /* CardDetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetailRouter.swift; sourceTree = "<group>"; };
+		401EB3CB2C91BB4C00E727E6 /* CardListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListRouter.swift; sourceTree = "<group>"; };
+		401EB3CC2C91BB4C00E727E6 /* MainScreenRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenRouter.swift; sourceTree = "<group>"; };
+		401EB3CE2C91BB4C00E727E6 /* CardDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetailPresenter.swift; sourceTree = "<group>"; };
+		401EB3CF2C91BB4C00E727E6 /* CardListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListPresenter.swift; sourceTree = "<group>"; };
+		401EB3D02C91BB4C00E727E6 /* MainScreenPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenPresenter.swift; sourceTree = "<group>"; };
+		401EB3D32C91BB4C00E727E6 /* CardDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
+		401EB3D42C91BB4C00E727E6 /* CardListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
+		401EB3D52C91BB4C00E727E6 /* MainScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		401EB3FA2C91EE0C00E727E6 /* Alamofire */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Alamofire; sourceTree = "<group>"; };
+		401EB4002C9216CA00E727E6 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		401EB4062C923EAA00E727E6 /* MagicAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		401EB4082C923EAA00E727E6 /* MagicAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicAppTests.swift; sourceTree = "<group>"; };
+		401EB4102C924ACC00E727E6 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		401EB4112C924ACC00E727E6 /* CardDetailModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetailModule.swift; sourceTree = "<group>"; };
+		401EB4122C924ACC00E727E6 /* CardListModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListModule.swift; sourceTree = "<group>"; };
+		401EB4132C924ACC00E727E6 /* MainScreenModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenModule.swift; sourceTree = "<group>"; };
+		401EB4152C924ACC00E727E6 /* CardDetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetailInteractor.swift; sourceTree = "<group>"; };
+		401EB4162C924ACC00E727E6 /* CardListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListInteractor.swift; sourceTree = "<group>"; };
+		401EB4182C924ACC00E727E6 /* CardDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetailPresenter.swift; sourceTree = "<group>"; };
+		401EB4192C924ACC00E727E6 /* CardListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListPresenter.swift; sourceTree = "<group>"; };
+		401EB41A2C924ACC00E727E6 /* MainScreenPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenPresenter.swift; sourceTree = "<group>"; };
+		401EB41C2C924ACC00E727E6 /* Alamofire */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Alamofire; sourceTree = "<group>"; };
+		401EB41D2C924ACC00E727E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		401EB41F2C924ACC00E727E6 /* CardDetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetailRouter.swift; sourceTree = "<group>"; };
+		401EB4202C924ACC00E727E6 /* CardListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListRouter.swift; sourceTree = "<group>"; };
+		401EB4212C924ACC00E727E6 /* MainScreenRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenRouter.swift; sourceTree = "<group>"; };
+		401EB4232C924ACC00E727E6 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		401EB4252C924ACC00E727E6 /* CardDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
+		401EB4262C924ACC00E727E6 /* CardListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
+		401EB4272C924ACC00E727E6 /* MainScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		401EB4292C924ACC00E727E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		401EB42A2C924ACC00E727E6 /* MagicAppApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicAppApp.swift; sourceTree = "<group>"; };
+		401EB4402C924B4700E727E6 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		435B08BB581874F88265BD12 /* Pods-MagicApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicApp.debug.xcconfig"; path = "Target Support Files/Pods-MagicApp/Pods-MagicApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4D4DDEA91A81E46E48F3E26E /* Pods_MagicApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C69171AC6B5A2E64FEE5A9 /* Pods-MagicApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicApp.release.xcconfig"; path = "Target Support Files/Pods-MagicApp/Pods-MagicApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		401EB3882C90CCF200E727E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D957BAF8947B66D54CB44C /* Pods_MagicApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401EB4032C923EAA00E727E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		401EB3822C90CCF200E727E6 = {
+			isa = PBXGroup;
+			children = (
+				401EB4402C924B4700E727E6 /* info.plist */,
+				401EB38D2C90CCF200E727E6 /* MagicApp */,
+				401EB42B2C924ACC00E727E6 /* MagicApp */,
+				401EB4072C923EAA00E727E6 /* MagicAppTests */,
+				401EB38C2C90CCF200E727E6 /* Products */,
+				C211B947EFB52F49030164DB /* Pods */,
+				6EB9548E6EE7B1B1B0E536B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		401EB38C2C90CCF200E727E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				401EB38B2C90CCF200E727E6 /* MagicApp.app */,
+				401EB4062C923EAA00E727E6 /* MagicAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		401EB38D2C90CCF200E727E6 /* MagicApp */ = {
+			isa = PBXGroup;
+			children = (
+				401EB3C42C91BB4C00E727E6 /* entities */,
+				401EB3C72C91BB4C00E727E6 /* interactors */,
+				401EB3D12C91BB4C00E727E6 /* presenters */,
+				401EB3C92C91BB4C00E727E6 /* Preview Content */,
+				401EB3CD2C91BB4C00E727E6 /* routers */,
+				401EB3D22C91BB4C00E727E6 /* utils */,
+				401EB3D62C91BB4C00E727E6 /* views */,
+				401EB38E2C90CCF200E727E6 /* MagicAppApp.swift */,
+				401EB3922C90CCF400E727E6 /* Assets.xcassets */,
+				401EB3942C90CCF400E727E6 /* Preview Content */,
+			);
+			path = MagicApp;
+			sourceTree = "<group>";
+		};
+		401EB3942C90CCF400E727E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				401EB3FA2C91EE0C00E727E6 /* Alamofire */,
+				401EB3952C90CCF400E727E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		401EB3C42C91BB4C00E727E6 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				401EB3C02C91BB4C00E727E6 /* Card.swift */,
+				401EB3C12C91BB4C00E727E6 /* CardDetailModule.swift */,
+				401EB3C22C91BB4C00E727E6 /* CardListModule.swift */,
+				401EB3C32C91BB4C00E727E6 /* MainScreenModule.swift */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
+		401EB3C72C91BB4C00E727E6 /* interactors */ = {
+			isa = PBXGroup;
+			children = (
+				401EB3C52C91BB4C00E727E6 /* CardDetailInteractor.swift */,
+				401EB3C62C91BB4C00E727E6 /* CardListInteractor.swift */,
+			);
+			path = interactors;
+			sourceTree = "<group>";
+		};
+		401EB3C92C91BB4C00E727E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				401EB3C82C91BB4C00E727E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		401EB3CD2C91BB4C00E727E6 /* routers */ = {
+			isa = PBXGroup;
+			children = (
+				401EB3CA2C91BB4C00E727E6 /* CardDetailRouter.swift */,
+				401EB3CB2C91BB4C00E727E6 /* CardListRouter.swift */,
+				401EB3CC2C91BB4C00E727E6 /* MainScreenRouter.swift */,
+			);
+			path = routers;
+			sourceTree = "<group>";
+		};
+		401EB3D12C91BB4C00E727E6 /* presenters */ = {
+			isa = PBXGroup;
+			children = (
+				401EB3CE2C91BB4C00E727E6 /* CardDetailPresenter.swift */,
+				401EB3CF2C91BB4C00E727E6 /* CardListPresenter.swift */,
+				401EB3D02C91BB4C00E727E6 /* MainScreenPresenter.swift */,
+			);
+			path = presenters;
+			sourceTree = "<group>";
+		};
+		401EB3D22C91BB4C00E727E6 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				401EB4002C9216CA00E727E6 /* Constant.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		401EB3D62C91BB4C00E727E6 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				401EB3D32C91BB4C00E727E6 /* CardDetailView.swift */,
+				401EB3D42C91BB4C00E727E6 /* CardListView.swift */,
+				401EB3D52C91BB4C00E727E6 /* MainScreenView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		401EB4072C923EAA00E727E6 /* MagicAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				401EB40F2C92420000E727E6 /* CardListModuleTests */,
+				401EB4082C923EAA00E727E6 /* MagicAppTests.swift */,
+			);
+			path = MagicAppTests;
+			sourceTree = "<group>";
+		};
+		401EB40F2C92420000E727E6 /* CardListModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CardListModuleTests;
+			sourceTree = "<group>";
+		};
+		401EB4142C924ACC00E727E6 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				401EB4102C924ACC00E727E6 /* Card.swift */,
+				401EB4112C924ACC00E727E6 /* CardDetailModule.swift */,
+				401EB4122C924ACC00E727E6 /* CardListModule.swift */,
+				401EB4132C924ACC00E727E6 /* MainScreenModule.swift */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
+		401EB4172C924ACC00E727E6 /* interactors */ = {
+			isa = PBXGroup;
+			children = (
+				401EB4152C924ACC00E727E6 /* CardDetailInteractor.swift */,
+				401EB4162C924ACC00E727E6 /* CardListInteractor.swift */,
+			);
+			path = interactors;
+			sourceTree = "<group>";
+		};
+		401EB41B2C924ACC00E727E6 /* presenters */ = {
+			isa = PBXGroup;
+			children = (
+				401EB4182C924ACC00E727E6 /* CardDetailPresenter.swift */,
+				401EB4192C924ACC00E727E6 /* CardListPresenter.swift */,
+				401EB41A2C924ACC00E727E6 /* MainScreenPresenter.swift */,
+			);
+			path = presenters;
+			sourceTree = "<group>";
+		};
+		401EB41E2C924ACC00E727E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				401EB41C2C924ACC00E727E6 /* Alamofire */,
+				401EB41D2C924ACC00E727E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		401EB4222C924ACC00E727E6 /* routers */ = {
+			isa = PBXGroup;
+			children = (
+				401EB41F2C924ACC00E727E6 /* CardDetailRouter.swift */,
+				401EB4202C924ACC00E727E6 /* CardListRouter.swift */,
+				401EB4212C924ACC00E727E6 /* MainScreenRouter.swift */,
+			);
+			path = routers;
+			sourceTree = "<group>";
+		};
+		401EB4242C924ACC00E727E6 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				401EB4232C924ACC00E727E6 /* Constant.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		401EB4282C924ACC00E727E6 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				401EB4252C924ACC00E727E6 /* CardDetailView.swift */,
+				401EB4262C924ACC00E727E6 /* CardListView.swift */,
+				401EB4272C924ACC00E727E6 /* MainScreenView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		401EB42B2C924ACC00E727E6 /* MagicApp */ = {
+			isa = PBXGroup;
+			children = (
+				401EB4142C924ACC00E727E6 /* entities */,
+				401EB4172C924ACC00E727E6 /* interactors */,
+				401EB41B2C924ACC00E727E6 /* presenters */,
+				401EB41E2C924ACC00E727E6 /* Preview Content */,
+				401EB4222C924ACC00E727E6 /* routers */,
+				401EB4242C924ACC00E727E6 /* utils */,
+				401EB4282C924ACC00E727E6 /* views */,
+				401EB4292C924ACC00E727E6 /* Assets.xcassets */,
+				401EB42A2C924ACC00E727E6 /* MagicAppApp.swift */,
+			);
+			path = MagicApp;
+			sourceTree = "<group>";
+		};
+		6EB9548E6EE7B1B1B0E536B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D4DDEA91A81E46E48F3E26E /* Pods_MagicApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C211B947EFB52F49030164DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				435B08BB581874F88265BD12 /* Pods-MagicApp.debug.xcconfig */,
+				59C69171AC6B5A2E64FEE5A9 /* Pods-MagicApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		401EB38A2C90CCF200E727E6 /* MagicApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 401EB3992C90CCF400E727E6 /* Build configuration list for PBXNativeTarget "MagicApp" */;
+			buildPhases = (
+				D78205B08C17C7C7DB7AB279 /* [CP] Check Pods Manifest.lock */,
+				401EB3872C90CCF200E727E6 /* Sources */,
+				401EB3882C90CCF200E727E6 /* Frameworks */,
+				401EB3892C90CCF200E727E6 /* Resources */,
+				96DB15D0D8D8093F70DCAB9D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicApp;
+			productName = MagicApp;
+			productReference = 401EB38B2C90CCF200E727E6 /* MagicApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		401EB4052C923EAA00E727E6 /* MagicAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 401EB40E2C923EAA00E727E6 /* Build configuration list for PBXNativeTarget "MagicAppTests" */;
+			buildPhases = (
+				401EB4022C923EAA00E727E6 /* Sources */,
+				401EB4032C923EAA00E727E6 /* Frameworks */,
+				401EB4042C923EAA00E727E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				401EB40B2C923EAA00E727E6 /* PBXTargetDependency */,
+			);
+			name = MagicAppTests;
+			productName = MagicAppTests;
+			productReference = 401EB4062C923EAA00E727E6 /* MagicAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		401EB3832C90CCF200E727E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					401EB38A2C90CCF200E727E6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					401EB4052C923EAA00E727E6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 401EB38A2C90CCF200E727E6;
+					};
+				};
+			};
+			buildConfigurationList = 401EB3862C90CCF200E727E6 /* Build configuration list for PBXProject "MagicApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 401EB3822C90CCF200E727E6;
+			productRefGroup = 401EB38C2C90CCF200E727E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				401EB38A2C90CCF200E727E6 /* MagicApp */,
+				401EB4052C923EAA00E727E6 /* MagicAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		401EB3892C90CCF200E727E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401EB3962C90CCF400E727E6 /* Preview Assets.xcassets in Resources */,
+				401EB4352C924ACC00E727E6 /* Alamofire in Resources */,
+				401EB4362C924ACC00E727E6 /* Preview Assets.xcassets in Resources */,
+				401EB3DD2C91BB4C00E727E6 /* Preview Assets.xcassets in Resources */,
+				401EB43E2C924ACC00E727E6 /* Assets.xcassets in Resources */,
+				401EB3932C90CCF400E727E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401EB4042C923EAA00E727E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401EB4422C924B4700E727E6 /* info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		96DB15D0D8D8093F70DCAB9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagicApp/Pods-MagicApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagicApp/Pods-MagicApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MagicApp/Pods-MagicApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D78205B08C17C7C7DB7AB279 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		401EB3872C90CCF200E727E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401EB3D82C91BB4C00E727E6 /* CardDetailModule.swift in Sources */,
+				401EB4322C924ACC00E727E6 /* CardDetailPresenter.swift in Sources */,
+				401EB4392C924ACC00E727E6 /* MainScreenRouter.swift in Sources */,
+				401EB43B2C924ACC00E727E6 /* CardDetailView.swift in Sources */,
+				401EB42C2C924ACC00E727E6 /* Card.swift in Sources */,
+				401EB3E12C91BB4C00E727E6 /* CardDetailPresenter.swift in Sources */,
+				401EB3D92C91BB4C00E727E6 /* CardListModule.swift in Sources */,
+				401EB43D2C924ACC00E727E6 /* MainScreenView.swift in Sources */,
+				401EB3DF2C91BB4C00E727E6 /* CardListRouter.swift in Sources */,
+				401EB3DA2C91BB4C00E727E6 /* MainScreenModule.swift in Sources */,
+				401EB42D2C924ACC00E727E6 /* CardDetailModule.swift in Sources */,
+				401EB43F2C924ACC00E727E6 /* MagicAppApp.swift in Sources */,
+				401EB3E62C91BB4C00E727E6 /* MainScreenView.swift in Sources */,
+				401EB3DE2C91BB4C00E727E6 /* CardDetailRouter.swift in Sources */,
+				401EB4382C924ACC00E727E6 /* CardListRouter.swift in Sources */,
+				401EB3DC2C91BB4C00E727E6 /* CardListInteractor.swift in Sources */,
+				401EB4342C924ACC00E727E6 /* MainScreenPresenter.swift in Sources */,
+				401EB4372C924ACC00E727E6 /* CardDetailRouter.swift in Sources */,
+				401EB3E02C91BB4C00E727E6 /* MainScreenRouter.swift in Sources */,
+				401EB42E2C924ACC00E727E6 /* CardListModule.swift in Sources */,
+				401EB43A2C924ACC00E727E6 /* Constant.swift in Sources */,
+				401EB3E32C91BB4C00E727E6 /* MainScreenPresenter.swift in Sources */,
+				401EB4012C9216CA00E727E6 /* Constant.swift in Sources */,
+				401EB3D72C91BB4C00E727E6 /* Card.swift in Sources */,
+				401EB4312C924ACC00E727E6 /* CardListInteractor.swift in Sources */,
+				401EB3DB2C91BB4C00E727E6 /* CardDetailInteractor.swift in Sources */,
+				401EB3E42C91BB4C00E727E6 /* CardDetailView.swift in Sources */,
+				401EB4332C924ACC00E727E6 /* CardListPresenter.swift in Sources */,
+				401EB42F2C924ACC00E727E6 /* MainScreenModule.swift in Sources */,
+				401EB38F2C90CCF200E727E6 /* MagicAppApp.swift in Sources */,
+				401EB4302C924ACC00E727E6 /* CardDetailInteractor.swift in Sources */,
+				401EB3E52C91BB4C00E727E6 /* CardListView.swift in Sources */,
+				401EB43C2C924ACC00E727E6 /* CardListView.swift in Sources */,
+				401EB3E22C91BB4C00E727E6 /* CardListPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401EB4022C923EAA00E727E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401EB4092C923EAA00E727E6 /* MagicAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		401EB40B2C923EAA00E727E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 401EB38A2C90CCF200E727E6 /* MagicApp */;
+			targetProxy = 401EB40A2C923EAA00E727E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		401EB3972C90CCF400E727E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		401EB3982C90CCF400E727E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		401EB39A2C90CCF400E727E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 435B08BB581874F88265BD12 /* Pods-MagicApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MagicApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4363U5NBM7;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/melmghar/Desktop/auto-learning/MagicApp/info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.auto-learning.MagicApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		401EB39B2C90CCF400E727E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59C69171AC6B5A2E64FEE5A9 /* Pods-MagicApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MagicApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4363U5NBM7;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/melmghar/Desktop/auto-learning/MagicApp/info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.auto-learning.MagicApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		401EB40C2C923EAA00E727E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.auto-learning.MagicAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MagicApp";
+			};
+			name = Debug;
+		};
+		401EB40D2C923EAA00E727E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.auto-learning.MagicAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MagicApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		401EB3862C90CCF200E727E6 /* Build configuration list for PBXProject "MagicApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401EB3972C90CCF400E727E6 /* Debug */,
+				401EB3982C90CCF400E727E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		401EB3992C90CCF400E727E6 /* Build configuration list for PBXNativeTarget "MagicApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401EB39A2C90CCF400E727E6 /* Debug */,
+				401EB39B2C90CCF400E727E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		401EB40E2C923EAA00E727E6 /* Build configuration list for PBXNativeTarget "MagicAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401EB40C2C923EAA00E727E6 /* Debug */,
+				401EB40D2C923EAA00E727E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 401EB3832C90CCF200E727E6 /* Project object */;
+}
