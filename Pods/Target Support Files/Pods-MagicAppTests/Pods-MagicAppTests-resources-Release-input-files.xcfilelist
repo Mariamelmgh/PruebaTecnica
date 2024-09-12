@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-MagicAppTests/Pods-MagicAppTests-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/Alamofire-library/Alamofire.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher-library/Kingfisher.bundle

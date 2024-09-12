@@ -6,7 +6,15 @@ target 'MagicApp' do
   use_frameworks!
 
   # Pods for MagicApp
+  inherit! :search_paths
    pod 'Alamofire', '~> 5.7'
    pod 'Kingfisher', '~> 7.0'
 
+end
+
+target 'MagicAppTests' do
+  inherit! :search_paths
+  # Test target dependencies
+  pod 'Alamofire', '~> 5.7'
+  pod 'Kingfisher', '~> 7.0'
 end
